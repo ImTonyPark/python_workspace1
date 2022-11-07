@@ -50,12 +50,13 @@ print("3과목 점수 평균", round(total/3,2))
 
 sa = 11
 sa1 = 37
-print("한역을 지나는데 걸리는 시간은 총",round(sa1/sa,2),"입니다") 
+saa = sa1 / sa
+print("한역을 지나는데 걸리는 시간은 총",round(saa,2),"입니다") 
 
 
 weight = 260
 f = 14
 f1 = 500.23
 ft = f1 + (f-1)*weight 
-print("이건물의 높이는",round(ft,3),"m입니다")
+print("이건물의 높이는",round(ft/100,3),"m입니다")
 
